@@ -7,3 +7,24 @@ DATA/
 Pfam_db/
 TE-Aid/
 TE_ManAnnot/
+
+# BLAST / NCBI index files
+*.nsq
+*.nin
+*.nhr
+*.ndb
+*.ntf
+*.nto
+*.njs
+*.o
+
+# Ignore all DATA by default
+DATA/**
+
+# Allow specific curated results
+!DATA/
+!DATA/data_modif/
+!DATA/data_modif/rm2header2table.tab
+!DATA/data_modif/reduced_fHyp1.fa
+!DATA/data_modif/reduced_fHyp1.fa.clstr
+!DATA/data_modif/reduced_fHyp1.orf
