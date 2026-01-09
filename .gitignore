@@ -1,0 +1,9 @@
+#Dossiers
+biblio/
+videos_goubert/
+Miniconda*
+*.sh
+DATA/
+Pfam_db/
+TE-Aid/
+TE_ManAnnot/
