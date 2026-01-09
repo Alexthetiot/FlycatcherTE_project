@@ -1,0 +1,124 @@
+# pfam_scan.pl,  run at Fri Jan  9 11:39:06 2026
+#
+# Copyright (c) 2009 Genome Research Ltd
+# Freely distributed under the GNU 
+# General Public License
+#
+# Authors: Jaina Mistry (jaina@ebi.ac.uk), 
+#          Rob Finn (rdf@ebi.ac.uk)
+#
+# This is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the Free Software
+# Foundation; either version 2 of the License, or (at your option) any later version.
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+# details.
+#
+# You should have received a copy of the GNU General Public License along with
+# this program. If not, see <http://www.gnu.org/licenses/>. 
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#      query sequence file: reduced_fHyp1.orf
+#        searching against: /home/athetiot/FlycatcherTE_project/Pfam_db//Pfam-A.hmm, with cut off --cut_ga
+#    resolve clan overlaps: on
+#     predict active sites: off
+# = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+#
+# <seq id> <alignment start> <alignment end> <envelope start> <envelope end> <hmm acc> <hmm name> <type> <hmm start> <hmm end> <hmm length> <bit score> <E-value> <significance> <clan>
+
+rnd-1_family-0#Unknown_7               104    376     98    378 PF13853.13  7tm_4             Family     4   278   280    160.8   8.2e-47   1 CL0192   
+rnd-1_family-0#Unknown_25               26    197     23    203 PF00001.27  7tm_1             Domain    12   192   260     77.4   1.7e-21   1 CL0192   
+rnd-1_family-5#LINE_CR1_2               22    106     13    107 PF00077.26  RVP               Domain    11   100   101     41.9   1.3e-10   1 CL0129   
+rnd-1_family-66#Satellite_3              1     19      1     19 PF00096.33  zf-C2H2           Domain     5    23    23     22.5   0.00015   1 CL0361   
+rnd-1_family-66#Satellite_3             25     47     25     47 PF00096.33  zf-C2H2           Domain     1    23    23     24.8   2.8e-05   1 CL0361   
+rnd-1_family-66#Satellite_3             53     75     53     75 PF00096.33  zf-C2H2           Domain     1    23    23     26.9   5.9e-06   1 CL0361   
+rnd-1_family-66#Satellite_3             81    103     81    103 PF00096.33  zf-C2H2           Domain     1    23    23     31.1   2.8e-07   1 CL0361   
+rnd-1_family-66#Satellite_3            109    131    109    131 PF00096.33  zf-C2H2           Domain     1    23    23     25.0   2.5e-05   1 CL0361   
+rnd-1_family-66#Satellite_3            137    159    137    159 PF00096.33  zf-C2H2           Domain     1    23    23     26.8   6.7e-06   1 CL0361   
+rnd-1_family-66#Satellite_3            165    178    165    179 PF00096.33  zf-C2H2           Domain     1    14    23     16.4     0.013   1 CL0361   
+rnd-1_family-74#Unknown_3               58    323     52    323 PF13853.13  7tm_4             Family     4   271   280    156.4   1.8e-45   1 CL0192   
+rnd-1_family-25#LINE_CR1_9              31    297     25    303 PF13853.13  7tm_4             Family     4   272   280    159.2   2.5e-46   1 CL0192   
+rnd-1_family-32#LTR_ERV1_4              15    113     15    113 PF17919.8   RT_RNaseH_2       Domain     1   100   100     54.9     1e-14   1 CL0219   
+rnd-1_family-38#LTR_ERV1_2             141    317    128    321 PF02093.21  Gag_p30           Family    15   195   201     87.5   1.2e-24   1 CL0148   
+rnd-1_family-110#LTR_ERVK_3              5     48      2     64 PF03708.19  Avian_gp85        Family   185   228   246     47.0   2.6e-12   1 No_clan  
+rnd-1_family-115#DNA_hAT-Charlie_5     113    171    104    176 PF00069.32  Pkinase           Domain   102   160   262     52.1   8.5e-14   1 CL0016   
+rnd-1_family-115#DNA_hAT-Charlie_9      75    121     59    140 PF00069.32  Pkinase           Domain   157   204   262     32.8   6.2e-08   1 CL0016   
+rnd-1_family-130#LTR_ERVK_1              9    178      8    178 PF00078.33  RVT_1             Domain     2   200   200    112.9   2.4e-32   1 CL0027   
+rnd-1_family-130#LTR_ERVK_1            185    239    185    243 PF06817.20  RVT_thumb         Domain     1    56    66     59.8   2.4e-16   1 No_clan  
+rnd-1_family-130#LTR_ERVK_3             46     82     46     83 PF02022.26  Integrase_Zn      Domain     1    37    38     37.1   3.2e-09   1 CL0123   
+rnd-1_family-130#LTR_ERVK_4            214    346    213    349 PF00075.31  RNase_H           Domain     2   137   141     47.2   3.4e-12   1 CL0219   
+rnd-1_family-138#LTR_ERVK_2             95    131     95    132 PF02022.26  Integrase_Zn      Domain     1    37    38     37.8     2e-09   1 CL0123   
+rnd-1_family-138#LTR_ERVK_3             61    152     58    152 PF00665.33  rve               Domain     6   102   102     78.8   4.4e-22   1 CL0219   
+rnd-1_family-138#LTR_ERVK_4             83    122     81    124 PF00552.28  IN_DBD_C          Domain     3    43    45     28.7   8.2e-07   1 CL0010   
+rnd-1_family-141#LTR_ERVK_2            147    267    147    274 PF00607.26  Gag_p24           Domain     1   120   128     87.9   6.8e-25   1 CL0148   
+rnd-1_family-141#LTR_ERVK_2            280    348    275    350 PF19317.5   Gag_p24_C         Domain     6    72    74     56.3   2.8e-15   1 CL0148   
+rnd-1_family-141#LTR_ERVK_2            388    403    387    403 PF00098.29  zf-CCHC           Domain     3    18    18     26.1   8.5e-06   1 CL0511   
+rnd-1_family-141#LTR_ERVK_4            165    253    162    255 PF00077.26  RVP               Domain     4    89   101     29.5   9.9e-07   1 CL0129   
+rnd-1_family-141#LTR_ERVK_8             66    236     65    236 PF00078.33  RVT_1             Domain     2   200   200    120.2   1.4e-34   1 CL0027   
+rnd-1_family-141#LTR_ERVK_8            243    298    243    298 PF06817.20  RVT_thumb         Domain     1    57    66     63.3   1.9e-17   1 No_clan  
+rnd-1_family-143#LTR_ERV1_3             29    122     26    137 PF00075.31  RNase_H           Domain     4    97   141     55.6   8.8e-15   1 CL0219   
+rnd-1_family-149#LTR_ERVK_2             14    370      5    370 PF00429.25  TLV_coat          Family   215   560   560    361.9  9.1e-108   1 No_clan  
+rnd-1_family-160#LTR_ERV1_1             78    174     77    174 PF00665.33  rve               Domain     2   102   102     69.7     3e-19   1 CL0219   
+rnd-1_family-160#LTR_ERV1_1            282    335    282    337 PF18697.8   MLVIN_C           Domain     1    54    56     52.9   2.9e-14   1 CL0010   
+rnd-1_family-156#LTR_ERVK_4             31     56     29     62 PF00552.28  IN_DBD_C          Domain     3    28    45     26.3   4.7e-06   1 CL0010   
+rnd-3_family-6#LINE_CR1_2               15     87     10    116 PF00078.33  RVT_1             Domain   116   187   200     31.1   2.9e-07   1 CL0027   
+rnd-4_family-248#LTR_ERVL_2            202    362    201    363 PF00078.33  RVT_1             Domain     2   199   200     92.2   5.3e-26   1 CL0027   
+rnd-4_family-248#LTR_ERVL_2            426    521    426    526 PF17919.8   RT_RNaseH_2       Domain     1    93   100     48.8   7.9e-13   1 CL0219   
+rnd-4_family-248#LTR_ERVL_2            618    760    616    764 PF00075.31  RNase_H           Domain     3   137   141     69.1     6e-19   1 CL0219   
+rnd-4_family-248#LTR_ERVL_2            844    937    840    938 PF00665.33  rve               Domain     5   101   102     57.9   1.4e-15   1 CL0219   
+rnd-4_family-2#LINE_CR1_1               16    164      9    186 PF03372.30  Exo_endo_phos     Domain    12   169   224     48.0   1.8e-12   1 CL0530   
+rnd-5_family-1226#LINE_CR1_23           28     64      8     66 PF00069.32  Pkinase           Domain   103   139   262     35.3   1.1e-08   1 CL0016   
+rnd-5_family-1226#LINE_CR1_24           23     93     20    104 PF00069.32  Pkinase           Domain   140   210   262     57.7   1.7e-15   1 CL0016   
+rnd-5_family-216#LTR_ERVK_3            107    173    105    174 PF00313.29  CSD               Domain     3    65    66     84.5   4.7e-24   1 CL0021   
+rnd-5_family-987#Unknown_21            123    230    123    231 PF00447.24  HSF_DNA-bind      Domain     1    99   100     57.1   2.9e-15   1 CL0123   
+rnd-5_family-2008#Unknown_7             86    166     86    166 PF02422.22  Keratin           Family     1    80    80    112.2   9.5e-33   1 No_clan  
+rnd-5_family-3584#LTR_ERVK_3           298    429    297    431 PF00607.26  Gag_p24           Domain     2   126   128     92.4   2.7e-26   1 CL0148   
+rnd-5_family-3584#LTR_ERVK_3           435    505    431    505 PF19317.5   Gag_p24_C         Domain     6    74    74     42.9   4.1e-11   1 CL0148   
+rnd-5_family-3584#LTR_ERVK_3           549    564    548    565 PF00098.29  zf-CCHC           Domain     2    17    18     23.9   4.2e-05   1 CL0511   
+rnd-5_family-186#LTR_ERV1_2             31    124     31    131 PF17919.8   RT_RNaseH_2       Domain     1    95   100     55.8   5.1e-15   1 CL0219   
+rnd-5_family-683#LTR_ERVL_3             65    182     44    186 PF00429.25  TLV_coat          Family   441   560   560     30.9   1.6e-07   1 No_clan  
+rnd-6_family-231#DNA_hAT-Charlie_16     39    155      8    157 PF01153.26  Glypican          Family   205   321   555     73.2   2.6e-20   1 CL0644   
+rnd-6_family-2556#LTR_ERV1_3            69    263     68    264 PF02093.21  Gag_p30           Family     2   200   201    102.8   2.5e-29   1 CL0148   
+rnd-6_family-2556#LTR_ERV1_3           314    329    313    330 PF00098.29  zf-CCHC           Domain     2    17    18     24.0   3.9e-05   1 CL0511   
+rnd-6_family-2556#LTR_ERV1_4            14    111     13    112 PF00077.26  RVP               Domain     2   100   101     34.4     3e-08   1 CL0129   
+rnd-6_family-4016#LTR_ERV1_1            53    108     53    109 PF17921.8   Integrase_H2C2    Domain     1    58    59     28.5   1.8e-06   1 CL0361   
+rnd-6_family-46444#Unknown_3            52    135     49    135 PF07686.24  V-set             Domain    10    91   109     47.7     2e-12   1 CL0159   
+rnd-6_family-4358#LINE_CR1_1             8     95      4    101 PF00078.33  RVT_1             Domain     6    91   200     39.5   7.2e-10   1 CL0027   
+rnd-6_family-388#Unknown_7             285    336    269    345 PF20266.4   Mab-21_C          Domain    27    79   102     25.8   1.2e-05   1 No_clan  
+rnd-6_family-3851#LTR_ERV1_1             2     76      1     78 PF00078.33  RVT_1             Domain   121   198   200     45.2   1.3e-11   1 CL0027   
+rnd-6_family-3851#LTR_ERV1_2             2     96      1     98 PF17919.8   RT_RNaseH_2       Domain     3    98   100     51.9   8.7e-14   1 CL0219   
+rnd-6_family-481#LTR_ERVK_2             36     97     14     97 PF02813.19  Retro_M           Family    25    86    86     31.5   2.5e-07   1 CL0074   
+rnd-6_family-481#LTR_ERVK_4            215    340    214    343 PF00607.26  Gag_p24           Domain     2   124   128     87.6   8.7e-25   1 CL0148   
+rnd-6_family-481#LTR_ERVK_4            346    416    344    417 PF19317.5   Gag_p24_C         Domain     3    73    74     33.4   3.8e-08   1 CL0148   
+rnd-6_family-481#LTR_ERVK_4            440    456    439    456 PF00098.29  zf-CCHC           Domain     2    18    18     26.1   8.5e-06   1 CL0511   
+rnd-6_family-481#LTR_ERVK_4            474    489    473    490 PF00098.29  zf-CCHC           Domain     2    17    18     22.3   0.00014   1 CL0511   
+rnd-6_family-481#LTR_ERVK_6            127    210     99    211 PF00077.26  RVP               Domain    19   100   101     40.3   4.3e-10   1 CL0129   
+rnd-6_family-3855#LTR_ERV1_3            84    418     47    419 PF00429.25  TLV_coat          Family    92   393   560    119.0   3.3e-34   1 No_clan  
+rnd-6_family-8454#LTR_ERV1_12           47    223     37    224 PF02093.21  Gag_p30           Family    12   192   201     68.6     7e-19   1 CL0148   
+rnd-6_family-8454#LTR_ERV1_24           46    318     40    320 PF13853.13  7tm_4             Family     4   278   280    158.0   5.8e-46   1 CL0192   
+rnd-6_family-6659#LTR_ERVL_2           206    369    206    370 PF00078.33  RVT_1             Domain     1   198   200     90.1   2.4e-25   1 CL0027   
+rnd-6_family-6659#LTR_ERVL_2           434    532    434    533 PF17919.8   RT_RNaseH_2       Domain     1    99   100     47.3   2.3e-12   1 CL0219   
+rnd-6_family-6659#LTR_ERVL_2           615    752    612    754 PF00075.31  RNase_H           Domain     4   137   141     67.5   1.9e-18   1 CL0219   
+rnd-6_family-6659#LTR_ERVL_2           835    926    834    926 PF00665.33  rve               Domain     7   102   102     47.8   1.9e-12   1 CL0219   
+rnd-6_family-5366#LINE_CR1_2            55    136     55    137 PF08266.19  Cadherin_2        Domain     1    82    83     97.2   5.2e-28   1 CL0159   
+rnd-6_family-5366#LINE_CR1_7            32    116     30    117 PF00028.24  Cadherin          Domain    21    92    93     30.1   6.8e-07   1 CL0159   
+rnd-6_family-5366#LINE_CR1_7           171    253    170    254 PF00028.24  Cadherin          Domain     9    92    93     50.0   4.2e-13   1 CL0159   
+rnd-6_family-5366#LINE_CR1_16           55    136     55    137 PF08266.19  Cadherin_2        Domain     1    82    83     96.3     1e-27   1 CL0159   
+rnd-6_family-5366#LINE_CR1_21          290    384    290    384 PF00028.24  Cadherin          Domain     1    93    93     51.1     2e-13   1 CL0159   
+rnd-6_family-5366#LINE_CR1_21          401    481    398    489 PF00028.24  Cadherin          Domain     4    85    93     31.0   3.5e-07   1 CL0159   
+rnd-6_family-5366#LINE_CR1_21          504    607    503    608 PF00028.24  Cadherin          Domain     2    92    93     41.9   1.4e-10   1 CL0159   
+rnd-6_family-5366#LINE_CR1_21          664    746    663    747 PF00028.24  Cadherin          Domain     9    92    93     48.4   1.3e-12   1 CL0159   
+rnd-6_family-5366#LINE_CR1_26           55    136     55    137 PF08266.19  Cadherin_2        Domain     1    82    83     96.1   1.2e-27   1 CL0159   
+rnd-6_family-5366#LINE_CR1_31           81    162     79    170 PF00028.24  Cadherin          Domain     3    85    93     34.0   4.2e-08   1 CL0159   
+rnd-6_family-5366#LINE_CR1_31          185    288    184    289 PF00028.24  Cadherin          Domain     2    92    93     42.7   7.7e-11   1 CL0159   
+rnd-6_family-5366#LINE_CR1_31          347    429    346    430 PF00028.24  Cadherin          Domain     9    92    93     49.3   7.1e-13   1 CL0159   
+rnd-6_family-5366#LINE_CR1_37           55    136     55    137 PF08266.19  Cadherin_2        Domain     1    82    83     96.3   9.7e-28   1 CL0159   
+rnd-6_family-2378#LTR_ERVK_2           262    388    260    388 PF00607.26  Gag_p24           Domain     3   128   128    110.9   5.2e-32   1 CL0148   
+rnd-6_family-2378#LTR_ERVK_3            47    143     44    145 PF00077.26  RVP               Domain     4    96   101     63.6   2.3e-17   1 CL0129   
+rnd-6_family-2378#LTR_ERVK_5            24    109     15    110 PF00429.25  TLV_coat          Family   475   559   560     27.8   1.4e-06   1 No_clan  
+rnd-6_family-3349#Unknown_11            10     51      7     70 PF00176.30  SNF2-rel_dom      Domain   209   250   288     28.5   1.1e-06   1 CL0023   
+rnd-6_family-17307#LINE_CR1_4           58    142     55    146 PF10390.16  ELL               Family   153   239   282     80.0   2.8e-22   1 CL0123   
+rnd-6_family-954#LTR_ERV1_2            167    369    166    370 PF02093.21  Gag_p30           Family     2   200   201    103.6   1.4e-29   1 CL0148   
+rnd-6_family-954#LTR_ERV1_3             13    110     12    111 PF00077.26  RVP               Domain     2   100   101     40.2   4.5e-10   1 CL0129   
+rnd-6_family-3118#LTR_Gypsy_4           83    123     82    123 PF13639.13  zf-RING_2         Domain     2    44    44     36.9   4.4e-09   1 CL0229   
+rnd-6_family-2557#LTR_ERV1_2           132    406     65    415 PF00429.25  TLV_coat          Family    77   322   560     75.0   7.4e-21   1 No_clan  
