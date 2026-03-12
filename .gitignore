@@ -22,9 +22,3 @@ TE_ManAnnot/
 DATA/**
 
 # Allow specific curated results
-!DATA/
-!DATA/data_modif/
-!DATA/data_modif/rm2header2table.tab
-!DATA/data_modif/reduced_fHyp1.fa
-!DATA/data_modif/reduced_fHyp1.fa.clstr
-!DATA/data_modif/reduced_fHyp1.orf
