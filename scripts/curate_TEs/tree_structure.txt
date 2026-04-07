@@ -1,0 +1,21 @@
+.
+├── 01_prepare_for_manual_curation
+│   ├── 01_script_protocol7b_rename_and_extract_ind_seq.sh
+│   ├── 02_blast_TE_families_and_extract_flanking_regions.sh
+│   ├── 03_script_subsample_and_align.sh
+│   ├── 04_script_remove_gaps.sh
+│   ├── 05_script_verify_seq_redundancy_overlap.sh
+│   └── 06_script_clean_redundancy_overlap.sh
+├── 02_manual_curation
+│   ├── READ_ME.txt
+│   ├── script_align.sh
+│   ├── script_detect_x.sh
+│   ├── script_keep_sequences.sh
+│   ├── script_list_sequences.sh
+│   ├── script_remove_sequences.sh
+│   ├── script_rmgaponly.sh
+│   ├── script_trim_line.sh
+│   └── script_trim_x.sh
+└── tree_structure.txt
+
+3 directories, 16 files
